@@ -28,13 +28,16 @@ make ARCH=aarch64 LOG=debug run
 ## SDMMC
 
 ``` bash
-git clone -b ajax --recurse-submodules https://github.com/starry-mix-rk3588/starry-mix.git
-cd module-local/lwext4_rust/c
+git clone -b orange --recurse-submodules https://github.com/starry-os-orangepi5p/starry-mix.git
+cd starry-mix
+cd module-local/lwext4_rust
 git submodule init && git submodule update
 make musl-generic -C c/lwext4 ARCH=aarch64
 cd ../../../ # 回到根目录
 cd module-local/axplat-opi5p/tools/orangepi5
 sudo bash ./make_flash.sh partition rootfs=disk.img # 仅第一次需要, 和写入文件系统的时候需要
+
+cd starry-mix
 make ARCH=aarch64 LOG=error opi5p # 制作 uimg 镜像文件
 # 进入Maskrom 模式
 make ARCH=aarch64 LOG=error flash # 制作并烧写 boot 镜像

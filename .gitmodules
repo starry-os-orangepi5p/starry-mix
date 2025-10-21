@@ -1,17 +1,14 @@
 [submodule "arceos"]
 	path = arceos
-	url = https://github.com/starry-mix-rk3588/arceos
-	branch = ajax
+	url = https://github.com/starry-os-orangepi5p/arceos
+	branch = orange
 [submodule "module-local/axcpu"]
 	path = module-local/axcpu
-	url = https://github.com/starry-mix-rk3588/axcpu
-	branch = ajax
+	url = https://github.com/starry-os-orangepi5p/axcpu
+	branch = orange
 [submodule "module-local/axplat-opi5p"]
 	path = module-local/axplat-opi5p
-	url = https://github.com/starry-mix-rk3588/axplat-opi5p.git
+	url = https://github.com/starry-os-orangepi5p/axplat-opi5p.git
 [submodule "module-local/lwext4_rust"]
 	path = module-local/lwext4_rust
-	url = https://github.com/starry-mix-rk3588/lwext4_rust.git
-[submodule "module-local/rknpu2-rslab"]
-	path = module-local/rknpu2-rslab
-	url = https://github.com/starry-mix-rk3588/rknpu2-rslab.git
+	url = https://github.com/starry-os-orangepi5p/lwext4_rust.git
