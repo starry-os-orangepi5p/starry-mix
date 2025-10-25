@@ -151,6 +151,10 @@ path = "module-local/axplat-opi5p/axplat-aarch64-opi5p"
 features = ["irq", "fp-simd"]
 optional = true
 
+[dependencies.gpio_rk3588]
+path = "module-local/gpio_rk3588"
+optional = true
+
 [patch.crates-io]
 axbacktrace = { git = "https://github.com/Starry-Mix-THU/axbacktrace.git", rev = "322f6da" }
 axcpu = { path = "module-local/axcpu" }

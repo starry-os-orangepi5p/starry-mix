@@ -562,6 +562,7 @@ dependencies = [
  "axplat 0.2.0",
  "axplat-aarch64-peripherals",
  "dw_apb_uart",
+ "gpio_rk3588",
  "kspin",
  "log",
  "page_table_entry",
@@ -1318,6 +1319,14 @@ name = "glob"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0cc23270f6e1808e30a928bdc84dea0b9b4136a8bc82338574f23baf47bbd280"
+
+[[package]]
+name = "gpio_rk3588"
+version = "0.1.0"
+dependencies = [
+ "bitflags 2.9.1",
+ "log",
+]
 
 [[package]]
 name = "gpt_disk_io"
@@ -2179,6 +2188,7 @@ dependencies = [
  "axsync",
  "axtask",
  "cfg-if",
+ "gpio_rk3588",
  "linkme",
  "linux-raw-sys",
  "starry-api",
