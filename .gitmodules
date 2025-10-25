@@ -9,6 +9,9 @@
 [submodule "module-local/axplat-opi5p"]
 	path = module-local/axplat-opi5p
 	url = https://github.com/starry-os-orangepi5p/axplat-opi5p.git
+[submodule "module-local/gpio_rk3588"]
+	path = module-localgpio_rk3588/
+	url = https://github.com/starry-os-orangepi5p/gpio_rk3588.git
 [submodule "module-local/lwext4_rust"]
 	path = module-local/lwext4_rust
 	url = https://github.com/starry-os-orangepi5p/lwext4_rust.git
