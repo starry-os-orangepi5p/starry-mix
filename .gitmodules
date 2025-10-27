@@ -15,3 +15,14 @@
 [submodule "module-local/lwext4_rust"]
 	path = module-local/lwext4_rust
 	url = https://github.com/starry-os-orangepi5p/lwext4_rust.git
+[submodule "module-local/axplat_crates"]
+	path = module-local/axplat_crates
+	url = https://github.com/starry-os-orangepi5p/axplat_crates
+	branch = orange
+[submodule "module-local/timer_rk3588"]
+	path = module-local/timer_rk3588
+	url = https://github.com/starry-os-orangepi5p/timer_rk3588.git
+[submodule "module-local/gic_v3"]
+	path = module-local/gic_v3
+	url = https://github.com/starry-os-orangepi5p/gic_v3.git
+
